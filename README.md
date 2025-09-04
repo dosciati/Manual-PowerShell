@@ -1,48 +1,62 @@
-- [Manual-PowerShell](#manual-powershell)
-- [Fundamentos do PowerShell](#fundamentos-do-powershell)
-        * [1.1. O que é PowerShell?](#11-o-que---powershell-)
-- [1.2. Instalação e Configuração](#12-instala--o-e-configura--o)
-- [Ubuntu](#ubuntu)
-- [1.3. Interface do PowerShell](#13-interface-do-powershell)
-        * [2.1. Cmdlets e Sintaxe Básica](#21-cmdlets-e-sintaxe-b-sica)
-        * [2.2. Objetos e Pipeline](#22-objetos-e-pipeline)
-        * [2.3. Variáveis e Tipos de Dados](#23-vari-veis-e-tipos-de-dados)
-- [3.0 Comandos e Scripts](#30-comandos-e-scripts)
-        * [3.1. Trabalhando com Arquivos e Diretórios](#31-trabalhando-com-arquivos-e-diret-rios)
-        * [3.2. Controle de Fluxo](#32-controle-de-fluxo)
-        * [3.3. Funções e Scripts](#33-fun--es-e-scripts)
-- [4\. Administração de Sistemas com PowerShell](#4--administra--o-de-sistemas-com-powershell)
-        * [4.1. Gerenciamento de Usuários e Grupos](#41-gerenciamento-de-usu-rios-e-grupos)
-        * [4.2. Gerenciamento de Processos e Serviços](#42-gerenciamento-de-processos-e-servi-os)
-        * [4.3. Gerenciamento de Discos e Sistema de Arquivos](#43-gerenciamento-de-discos-e-sistema-de-arquivos)
-        * [4.4. Gerenciamento de Rede](#44-gerenciamento-de-rede)
-        * [4.5. Gerenciamento de Políticas de Grupo e Segurança Políticas de Grupo (GPO)](#45-gerenciamento-de-pol-ticas-de-grupo-e-seguran-a-pol-ticas-de-grupo--gpo-)
-        * [4.6. Automação de Tarefas e Agendamento](#46-automa--o-de-tarefas-e-agendamento)
-- [5\. Gerenciamento de processos](#5--gerenciamento-de-processos)
-        * [5.1 Processos em Execução](#51-processos-em-execu--o)
-        * [5.2 Utilizando o Comando Tasklist](#52-utilizando-o-comando-tasklist)
-    + [Cenários de Uso](#cen-rios-de-uso)
-        * [5.3 Finalizar um Processo Específico](#53-finalizar-um-processo-espec-fico)
-- [6\. Scripts e Automação com PowerShell](#6--scripts-e-automa--o-com-powershell)
-        * [6.1 Script Básico para Backup Diário](#61-script-b-sico-para-backup-di-rio)
-      - [**3\. Registrando a Conclusão do Backup em um Arquivo de Log**](#--3--registrando-a-conclus-o-do-backup-em-um-arquivo-de-log--)
-        * [6.2 Script para Limpeza de Arquivos Temporários](#62-script-para-limpeza-de-arquivos-tempor-rios)
-        * [6.3 Script para Monitoramento de Logs do Event Viewer](#63-script-para-monitoramento-de-logs-do-event-viewer)
-        * [6.4 Backup de Documentos Pessoais](#64-backup-de-documentos-pessoais)
-- [6.5 Backup de Projetos de Desenvolvimento](#65-backup-de-projetos-de-desenvolvimento)
-- [Automatizar a Limpeza de Arquivos Temporários](#automatizar-a-limpeza-de-arquivos-tempor-rios)
-- [Limpar o diretório Temp da pasta do usuário atual](#limpar-o-diret-rio-temp-da-pasta-do-usu-rio-atual)
-- [Semelhante ao anterior porém para ser executado em rede, para servidores](#semelhante-ao-anterior-por-m-para-ser-executado-em-rede--para-servidores)
-- [Define o diretório temporário](#define-o-diret-rio-tempor-rio)
-      - [Monitoramento e Registro do Uso de CPU e Memória](#monitoramento-e-registro-do-uso-de-cpu-e-mem-ria)
-      - [Desfragmentação de Disco Automatizada](#desfragmenta--o-de-disco-automatizada)
-- [Sincronização de Diretórios com Robocopy](#sincroniza--o-de-diret-rios-com-robocopy)
-- [Criação de Ponto de Restauração do Sistema](#cria--o-de-ponto-de-restaura--o-do-sistema)
-      - [Script para Backup Compactador de Fotos](#script-para-backup-compactador-de-fotos)
-- [Verificação e Correção de Erros no Disco](#verifica--o-e-corre--o-de-erros-no-disco)
-- [Exportação de Políticas de Segurança para Backup](#exporta--o-de-pol-ticas-de-seguran-a-para-backup)
-  * [Backup do registro do Windows](#backup-do-registro-do-windows)
-  * [Restauração do Backup do registro do Windows](#restaura--o-do-backup-do-registro-do-windows)
-- [Recursos Adicionais](#recursos-adicionais)
+<p align="center">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
+  <img src="https://img.shields.io/badge/Automation-4CAF50?style=for-the-badge&logo=githubactions&logoColor=white" alt="Automation"/>
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS"/>
+</p>
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+# ⚡ Manual de PowerShell
+
+> Material desenvolvido para a turma do **2º ano do Técnico em Informática do IFRS – Restinga**  
+> 📘 Apostila completa disponível em PDF: [Clique para baixar](https://github.com/dosciati/Manual-PowerShell/blob/main/Manual%20de%20PowerShell%20vers%C3%A3o_1_0.pdf)
+
+O **PowerShell** é muito mais que uma linha de comando: é uma plataforma de automação e administração de sistemas multiplataforma, usada em ambientes **Windows, Linux e macOS**.  
+Este manual foi criado para servir como **guia prático e didático**, trazendo desde fundamentos até exemplos avançados de **automação de tarefas reais**.
+
+---
+## 🚀 Destaques do Material
+
+### 🛠️ Scripts Práticos
+Este repositório não é apenas teoria — inclui exemplos que podem ser usados **no dia a dia de administradores de sistemas**:
+
+1. **Backup Automático de Documentos**  
+   ```powershell
+   Copy-Item -Path "C:\Dados" -Destination "D:\Backup\$(Get-Date -Format yyyyMMdd)" -Recurse
+
+2. **Limpeza de Arquivos Temporários**
+       $temp = $env:TEMP
+       Get-ChildItem -Path $temp -Recurse | Remove-Item -Force
+
+3. **Monitoramento de Processos em Tempo Real**
+          while ($true) {
+           Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
+           Start-Sleep -Seconds 10
+           Clear-Host
+       }
+4.**Sincronização de Diretórios com Robocopy**
+   Start-Process robocopy.exe "C:\Projetos" "D:\Backup\Projetos" "/MIR /R:5 /W:10"
+
+5. **Criação de Ponto de Restauração do Sistema**
+   checkpoint-Computer -Description "Restauração Automática" -RestorePointType MODIFY_SETTING
+   ➡️ Todos os exemplos detalhados estão descritos na 📘 Apostila completa disponível em PDF: [Clique para baixar](https://github.com/dosciati/Manual-PowerShell/blob/main/Manual%20de%20PowerShell%20vers%C3%A3o_1_0.pdf)
+
+   ## 🎯 Objetivos do Projeto
+
+- Ensinar **fundamentos essenciais** do PowerShell.  
+- Fornecer **scripts prontos para uso** no dia a dia de TI.  
+- Desenvolver a visão de **automação e administração de sistemas**.  
+- Servir como **material de apoio** para alunos e profissionais iniciantes.
+
+## 📚 Recursos Adicionais
+
+- **Documentação oficial Microsoft:** https://learn.microsoft.com/powershell  
+- **Repositório oficial do PowerShell:** https://github.com/PowerShell/PowerShell  
+- **Tutoriais práticos no YouTube:** pesquise por *PowerShell Scripts Básicos* para exemplos em vídeo.
+
+## 👨‍🏫 Autor
+
+**André Dosciati**  
+Especialista em **Redes, Dados e Segurança** | **Educador em Tecnologia**  
+🔗 **LinkedIn:** https://www.linkedin.com/in/andredosciati/  
+🔗 **GitHub:** https://github.com/dosciati
