@@ -25,29 +25,24 @@ Este repositório não é apenas teoria — inclui exemplos que podem ser usados
    Copy-Item -Path "C:\Dados" -Destination "D:\Backup\$(Get-Date -Format yyyyMMdd)" -Recurse
 
 2. **Limpeza de Arquivos Temporários**
- ```powershell
-   $temp = $env:TEMP
-       Get-ChildItem -Path $temp -Recurse | Remove-Item -Force
-
-4. **Monitoramento de Processos em Tempo Real**
     ```powershell
-       while ($true) {
-           Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
-           Start-Sleep -Seconds 10
-           Clear-Host
-       }
-4.**Sincronização de Diretórios com Robocopy**
-  ```powershell
-  Start-Process robocopy.exe "C:\Projetos" "D:\Backup\Projetos" "/MIR /R:5 /W:10"
+   $temp = $env:TEMP
+   Get-ChildItem -Path $temp -Recurse | Remove-Item -Force
+3. **Monitoramento de Processos em Tempo Real**
+   ```powershell
+   while ($true) {
+    Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
+    Start-Sleep -Seconds 10
+    Clear-Host}
+
+4. **Sincronização de Diretórios com Robocopy**
+   ```powershell
+      Start-Process robocopy.exe "C:\Projetos" "D:\Backup\Projetos" "/MIR /R:5 /W:10"
 
 5. **Criação de Ponto de Restauração do Sistema**
-   ```powershell
- checkpoint-Computer -Description "Restauração Automática" -RestorePointType MODIFY_SETTING
----
-   ➡️ Todos os exemplos detalhados estão descritos na 📘 Apostila completa disponível em PDF: [Clique para baixar](https://github.com/dosciati/Manual-PowerShell/blob/main/Manual%20de%20PowerShell%20vers%C3%A3o_1_0.pdf)
----
-   ## 🎯 Objetivos do Projeto
-
+    ```powershell
+    Checkpoint-Computer -Description "Restauração Automática" -RestorePointType MODIFY_SETTINGS
+  ## 🎯 Objetivos do Projeto
 - Ensinar **fundamentos essenciais** do PowerShell.  
 - Fornecer **scripts prontos para uso** no dia a dia de TI.  
 - Desenvolver a visão de **automação e administração de sistemas**.  
