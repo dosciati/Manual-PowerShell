@@ -57,6 +57,6 @@ Este repositório não é apenas teoria — inclui exemplos que podem ser usados
 ## 👨‍🏫 Autor
 
 **André Dosciati**  
-Especialista em **Redes, Dados e Segurança** | **Educador em Tecnologia**  
+Especialista em **Redes | Dados e Segurança** **|** **Educador em Tecnologia**  
 🔗 **LinkedIn:** https://www.linkedin.com/in/andredosciati/  
 🔗 **GitHub:** https://github.com/dosciati
