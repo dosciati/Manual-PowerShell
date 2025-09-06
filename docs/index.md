@@ -6,7 +6,7 @@ Use o menu para navegar entre os capítulos.
 
 ## Sumário
 
-- [Sumário {#sumário .TOC-Heading}](01-sumário-sumário-toc-heading.md)
+- [Sumário]
 - [Fundamentos do PowerShell](02-fundamentos-do-powershell.md)
 - [1.2. Instalação e Configuração](03-12-instalação-e-configuração.md)
 - [Ubuntu:](04-ubuntu.md)
