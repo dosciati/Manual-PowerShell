@@ -49,6 +49,5 @@ Backup do registro do Windows
 Restauração do Backup do registro do Windows
 [31](#restauração-do-backup-do-registro-do-windows)
 
-[Recursos Adicionais [32](16-recursos-adicionais.md)](#recursos-adicionais)
 
 **\**
