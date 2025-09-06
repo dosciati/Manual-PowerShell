@@ -1,2 +1,0 @@
-# Boas Práticas e Segurança
-

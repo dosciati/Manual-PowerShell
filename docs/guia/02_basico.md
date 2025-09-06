@@ -1,2 +1,0 @@
-# Fundamentos e Básico
-

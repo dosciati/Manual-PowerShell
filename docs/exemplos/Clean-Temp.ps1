@@ -1,1 +1,0 @@
-$targets=@($env:TEMP,'C:\Windows\Temp');foreach($t in $targets){if(Test-Path $t){Write-Host "Limpando: $t";Get-ChildItem $t -Force -Recurse -ErrorAction SilentlyContinue|Remove-Item -Force -Recurse -ErrorAction SilentlyContinue}}
