@@ -1,0 +1,73 @@
+site_name: Manual PowerShell
+site_description: Apostila prática de PowerShell com exemplos executáveis e boas práticas.
+site_url: https://dosciati.github.io/Manual-PowerShell/
+repo_name: dosciati/Manual-PowerShell
+repo_url: https://github.com/dosciati/Manual-PowerShell
+copyright: "© 2025 André Forlin Dosciati"
+
+nav:
+  - Início: index.md
+  - Guia:
+    - Introdução: guia/01_introducao.md
+    - Fundamentos e Básico: guia/02_basico.md
+    - Módulos e Pacotes: guia/03_modulos.md
+    - Scripting e Automação: guia/04_scripting.md
+    - Boas Práticas e Segurança: guia/05_boas_praticas.md
+    - Exemplos de Uso: guia/06_exemplos.md
+  - Exemplos (.ps1):
+    - Listar Softwares Instalados: exemplos/Get-InstalledSoftware.ps1
+    - Limpar Temporários: exemplos/Clean-Temp.ps1
+    - Verificar UAC/Admin: exemplos/Check-UAC.ps1
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+  icon:
+    logo: material/powershell
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      locale: pt_BR
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.critic
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dosciati
+    - icon: fontawesome/solid/house
+      link: https://dosciati.github.io/Manual-PowerShell/
