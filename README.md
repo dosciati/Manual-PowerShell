@@ -9,7 +9,7 @@
 # ⚡ Manual de PowerShell
 
 > Material desenvolvido para a turma do **2º ano do Técnico em Informática do IFRS – Restinga**  
-> 📘 Apostila completa disponível em PDF: [Clique para baixar](https://github.com/dosciati/Manual-PowerShell/blob/main/Manual%20de%20PowerShell%20vers%C3%A3o_1_0.pdf)
+> 📘 Apostila completa disponível em PDF: [Clique para baixar](https://github.com/dosciati/Manual-PowerShell/blob/main/docs/Manual%20de%20PowerShell.pdf)
 
 O **PowerShell** é muito mais que uma linha de comando: é uma plataforma de automação e administração de sistemas multiplataforma, usada em ambientes **Windows, Linux e macOS**.  
 Este manual foi criado para servir como **guia prático e didático**, trazendo desde fundamentos até exemplos avançados de **automação de tarefas reais**.
