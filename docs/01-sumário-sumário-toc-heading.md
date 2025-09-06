@@ -1,5 +1,4 @@
-# Sumário {#sumário .TOC-Heading}
-
+# Sumário
 [Fundamentos do PowerShell
 [2](#fundamentos-do-powershell)](#fundamentos-do-powershell)
 
