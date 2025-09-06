@@ -1,0 +1,29 @@
+
+# Manual de PowerShell — Portal
+
+Bem-vindo! Este site foi gerado a partir do documento original **Manual_powershell.md**.
+Use o menu para navegar entre os capítulos.
+
+## Sumário
+
+- [Sumário {#sumário .TOC-Heading}](01-sumário-sumário-toc-heading.md)
+- [Fundamentos do PowerShell](02-fundamentos-do-powershell.md)
+- [1.2. Instalação e Configuração](03-12-instalação-e-configuração.md)
+- [Ubuntu:](04-ubuntu.md)
+- [1.3. Interface do PowerShell](05-13-interface-do-powershell.md)
+- [3.0 Comandos e Scripts](06-30-comandos-e-scripts.md)
+- [4. Administração de Sistemas com PowerShell](07-4-administração-de-sistemas-com-powershell.md)
+- [5. Gerenciamento de processos](08-5-gerenciamento-de-processos.md)
+- [6. Scripts e Automação com PowerShell](09-6-scripts-e-automação-com-powershell.md)
+- [6.5 Backup de Projetos de Desenvolvimento](10-65-backup-de-projetos-de-desenvolvimento.md)
+- [Automatizar a Limpeza de Arquivos Temporários](11-automatizar-a-limpeza-de-arquivos-temporários.md)
+- [Sincronização de Diretórios com Robocopy](12-sincronização-de-diretórios-com-robocopy.md)
+- [Criação de Ponto de Restauração do Sistema](13-criação-de-ponto-de-restauração-do-sistema.md)
+- [Verificação e Correção de Erros no Disco](14-verificação-e-correção-de-erros-no-disco.md)
+- [Exportação de Políticas de Segurança para Backup](15-exportação-de-políticas-de-segurança-para-backup.md)
+- [Recursos Adicionais](16-recursos-adicionais.md)
+
+
+> **Imagens**: se o documento original referenciava imagens em `media/`,
+> crie a pasta `docs/media` e coloque os arquivos lá (os nomes nos links já estão prontos).
+
