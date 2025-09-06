@@ -2,9 +2,12 @@ site_name: Manual PowerShell
 theme:
   name: material
   language: pt
+markdown_extensions:
+  - attr_list
+  - toc:
+      toc_depth: 2-6
 nav:
   - Início: index.md
-  - Sumário
   - Fundamentos do PowerShell: 02-fundamentos-do-powershell.md
   - 1.2. Instalação e Configuração: 03-12-instalação-e-configuração.md
   - Ubuntu -: 04-ubuntu.md

@@ -1,12 +1,9 @@
-
 # Manual de PowerShell — Portal
 
-Bem-vindo! Este site foi gerado a partir do documento original **Manual_powershell.md**.
-Use o menu para navegar entre os capítulos.
+Bem-vindo! Use o menu para navegar entre os capítulos.
 
 ## Sumário
 
-- [Sumário]
 - [Fundamentos do PowerShell](02-fundamentos-do-powershell.md)
 - [1.2. Instalação e Configuração](03-12-instalação-e-configuração.md)
 - [Ubuntu:](04-ubuntu.md)
