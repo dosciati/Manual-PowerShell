@@ -22,8 +22,3 @@ Use o menu para navegar entre os capítulos.
 - [Verificação e Correção de Erros no Disco](14-verificação-e-correção-de-erros-no-disco.md)
 - [Exportação de Políticas de Segurança para Backup](15-exportação-de-políticas-de-segurança-para-backup.md)
 - [Recursos Adicionais](16-recursos-adicionais.md)
-
-
-> **Imagens**: se o documento original referenciava imagens em `media/`,
-> crie a pasta `docs/media` e coloque os arquivos lá (os nomes nos links já estão prontos).
-
