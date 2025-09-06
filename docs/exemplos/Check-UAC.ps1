@@ -1,1 +1,1 @@
-Write-Output 'Check UAC'
+$p=New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent());if($p.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)){Write-Host 'Sessão elevada: Administrador' -ForegroundColor Green}else{Write-Host 'Não está elevado. Execute como Administrador.' -ForegroundColor Yellow}

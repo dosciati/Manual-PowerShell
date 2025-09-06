@@ -1,3 +1,3 @@
-# 11 Administracao.Md
+# Administracao
 
-Conteúdo aqui.
+_Sem blocos detectados automaticamente para este tema nesta versão._

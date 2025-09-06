@@ -1,3 +1,3 @@
-# 12 Rede.Md
+# Rede
 
-Conteúdo aqui.
+_Sem blocos detectados automaticamente para este tema nesta versão._

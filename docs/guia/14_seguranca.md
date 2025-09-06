@@ -1,3 +1,3 @@
-# 14 Seguranca.Md
+# Seguranca
 
-Conteúdo aqui.
+_Sem blocos detectados automaticamente para este tema nesta versão._
